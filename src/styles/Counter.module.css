@@ -1,0 +1,283 @@
+.counterContainer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formContainer {
+  max-width: 100%;
+  margin: 32px auto;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  margin-bottom: 24px;
+  background-color: rgb(233, 233, 255);
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 14px;
+  margin-left: 20px;
+}
+
+.formGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.formGridHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100px;
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: white;
+  color: black;
+}
+
+.nameInput {
+  width: 250px;
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: white;
+  color: black;
+}
+
+.periodocityInput {
+  width: 200px;
+  padding: 3px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: white;
+  color: black;
+}
+
+.infoInput {
+  width: 150px;
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: white;
+  color: black;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.checkboxGroup {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkboxLabel {
+  font-size: 14px;
+  color: black;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.primaryButton {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.primaryButton:hover {
+  background-color: #2563eb;
+}
+
+.secondaryButton {
+  background-color: white;
+  color: black;
+  border: 1px solid #d1d5db;
+}
+
+.secondaryButton:hover {
+  background-color: #f3f4f6;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.screenShotButton {
+  background-color: #3b82f6;
+  height: 40px;
+}
+
+.screenShotButton:hover {
+  background-color: rgb(52, 52, 255);
+}
+
+.errorMessage {
+  color: red;
+}
+
+.formulaWrapper {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  padding: 24px 5px;
+  margin-bottom: 24px;
+  background-color: rgb(233, 233, 255);
+  width: 100%;
+  max-width: 100%;
+}
+
+.modelTitle {
+  width: 300px;
+}
+
+.modelsPageContainer {
+  padding: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.stepsDivider {
+  width: 300px;
+  height: 1px;
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  .primaryButton {
+    width: auto;
+    height: 30px;
+    font-size: 8px;
+  }
+  .modelTitle {
+    width: 70px;
+    font-size: 15px;
+  }
+  .modelsPageContainer {
+    padding: 5px;
+  }
+  .screenShotButton {
+    background-color: #3b82f6;
+    font-size: 8px;
+  }
+  .input {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 8px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: white;
+    color: black;
+  }
+  .nameInput {
+    width: 80px;
+    padding: 3px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: white;
+    color: black;
+  }
+  .periodocityInput {
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    padding: 3px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 10px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: white;
+    color: black;
+  }
+  .infoInput {
+    width: 70px;
+    padding: 8px 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+  }
+  .infoContainer {
+    display: flex;
+    gap: 8px;
+  }
+  .label {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 8px;
+  }
+  .formulaWrapper {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 12px 2px;
+    margin-bottom: 12px;
+    background-color: rgb(233, 233, 255);
+    width: 100%;
+    max-width: 100%;
+  }
+  .stepsDivider {
+    width: 150px;
+    height: 1px;
+    background-color: gray;
+  }
+  .errorMessage {
+    color: red;
+    font-size: 10px;
+  }
+}

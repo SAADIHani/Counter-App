@@ -1,0 +1,147 @@
+.formulaContainer {
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.formulaHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulaTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.deleteButton {
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  font-weight: bold;
+}
+
+.deleteButton:hover {
+  background-color: #991b1b;
+}
+
+.formGrid {
+  display: flex;
+  gap: 2px;
+}
+
+.formInput,
+.formSelect {
+  width: auto;
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  color: black;
+}
+
+.formInput:focus,
+.formSelect:focus {
+  outline: none;
+  border-color: #3b82f6;
+
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.functionFields {
+}
+
+.primaryButton {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.primaryButton:hover {
+  background-color: #2563eb;
+}
+
+.boxedCalculationItem {
+  border-radius: 4px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.deleteButtonMin {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  background-color: white;
+  border: 2px solid gray;
+  margin-right: 10px;
+}
+.formInputCalculation {
+  width: auto;
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .errorMessage {
+    color: red;
+    font-size: 10px;
+  }
+  .deleteButtonMin {
+    width: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-right: 7px;
+  }
+  .formInput {
+    width: 70px;
+    padding: 8px 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    color: black;
+  }
+  .formSelect {
+    width: 100px;
+    padding: 8px 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    color: black;
+  }
+  .formInputCalculation {
+    width: auto;
+    padding: 8px 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    color: black;
+  }
+}
